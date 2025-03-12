@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "ant-icon":"/node_modules/antd-mini/es/Icon/index",
+    "movies-list":"/components/movies_list_pages_search_movies/movies_list_pages_search_movies"
+  },
+  "styleIsolation": "apply-shared"
+}

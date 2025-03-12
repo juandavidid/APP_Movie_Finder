@@ -1,0 +1,14 @@
+/*Estilos a Imagenes Titutlo y  Peliculas*/
+.text-icons, .img-movies {
+  height: 74px;
+  border: 2px solid red;
+}
+/*Estilos de Imagenes Peliculas*/
+.img-movies{
+  width: 138px;
+  margin-left: 4px;
+}
+/*Estilos titulo peliculas*/
+.text-icons{
+  width: 217px;
+}

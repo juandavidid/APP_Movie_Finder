@@ -7,5 +7,12 @@ Component({
   didMount() {},
   didUpdate() {},
   didUnmount() {},
-  methods: {},
+  methods: {
+    // 1. Funcion que redirige a la Page search Movies
+    clickSearch(){
+      my.navigateTo({
+        url:"/pages/search_movies/search_movies"
+      })
+    }
+  },
 });

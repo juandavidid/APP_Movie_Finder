@@ -1,0 +1,41 @@
+<view class="">
+  <!--BUSCADOR-->
+  <view class="container-icon-search_bar" > 
+    <!--Icono Regresar pagina principal-->
+    <navigator url="/pages/index/index">
+      <ant-icon type="LeftOutline" style="color:white; margin-left:8px;"></ant-icon> <ant-icon type="MinusOutline" style="color:white; position:absolute; left:13px;top:11px"></ant-icon>
+    </navigator>
+    <!--Iconos Buscador-->
+    <ant-icon type="SearchOutline" style="color:#8696a0; position:absolute; top:59px; left:33px; z-index:4; font-size:20px;"></ant-icon>
+    <!--Barra de Busqueda-->
+    <input class="search_bar" onInput="onSearchInput" placeholder="Buscar juegos, series, peliculas..." placeholder-style="padding-left:32px; background-color:#1a1a1a; color:#6c6a6a; border-radius:8px; font-weight:800" />
+  </view>
+  <!--LISTA JUEGOS Y PELICULAS-->
+  <view class="container-list-Movies">
+    <!--Lista de Juegos-->
+    <view>
+      <view class="text-play">
+        <text>Juegos moviles recomendados</text>
+      </view>
+      <scroll-view scroll-x="{{true}}" style="width:390px">
+       <view  style="display:flex; width:800px; gap:2px;">
+          <view class="play-images"  a:for="{{ playArray}}">
+            Imagenes Juegos
+          </view>
+       </view>
+       <view  style="display:flex; width:700px; gap:54px; margin-top:10px; margin-left:27px;">
+          <view   a:for="{{ playArray}}">
+            <text>Texttos</text>
+          </view>
+       </view>
+      </scroll-view>
+    </view>
+
+    <!--Lista de Peliculas-->
+    <view >
+      PELICULAS EN LISTA
+      <movies-list></movies-list>
+    </view>
+  </view>
+</view>
+

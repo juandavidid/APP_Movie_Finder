@@ -1,0 +1,20 @@
+<view>
+  <!--ESTRUCTURA DE MOVIMIENTO VERTICAL-->
+    <scroll-view scroll-y ="{{true}}" style="height:460px">
+      <view style="display:flex; gap: 2px">
+        <!--IMAGENES DE LA PELICUA-->
+        <view>
+          <view a:for="{{ moviesList }}" a:for-item="imgMovies"  class="img-movies">
+            {{imgMovies}}
+          </view>
+        </view>
+       <!--TITULOS DE LA PELICULA-->
+       <view>
+          <view  a:for="{{ titleMovies }}" a:for-item="titleMovies" class="text-icons">
+            <text>{{titleMovies}}</text>
+            <ant-icon type="PlayOutline"></ant-icon>
+          </view>
+       </view>
+      </view>
+    </scroll-view>
+</view>

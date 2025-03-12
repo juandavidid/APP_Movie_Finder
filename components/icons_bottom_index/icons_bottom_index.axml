@@ -8,7 +8,7 @@
   <!--TEXTOS DE LOS ICONOS-->
   <view style="color:white" class="container-text">
     <text>Inicio</text>
-    <text>Busqueda</text>
+    <text onTap="clickSearch">Busqueda</text>
     <text>Favoritos</text>
   </view>
 </view>

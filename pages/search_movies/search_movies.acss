@@ -1,0 +1,43 @@
+/*--Estilo al buscador--*/
+.container-icon-search_bar{
+  position: relative;
+  padding-top: 10px;
+  background-color: black;
+  width: 100vw;
+  height: 83px;
+}
+
+.search_bar{
+  margin-top: 20px;
+  background-color: #1a1a1a;
+  padding-left: 58px;
+  width: 325px;
+  height:39px;
+  color:white;
+}
+
+/*--Estilo lista de juegos-*/
+.container-list-Movies{
+  background-color: black;
+  width: 100vw;
+  height: 659px;
+  color:white;
+}
+
+.text-play{
+  padding-top: 11px;
+  padding-left:7px;
+  padding-bottom: 10px;
+  font-size: 20px;
+
+}
+
+.play-images{
+  width: 100px;
+  height: 88px;
+  border: 2px solid #b33333;
+  margin-left: 7px;
+  border-radius: 11px;
+}
+
+
