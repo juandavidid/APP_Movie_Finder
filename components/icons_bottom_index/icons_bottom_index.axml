@@ -9,6 +9,6 @@
   <view style="color:white" class="container-text">
     <text>Inicio</text>
     <text onTap="clickSearch">Busqueda</text>
-    <text>Favoritos</text>
+    <text onTap="clickListFavorite">Favoritos</text>
   </view>
 </view>

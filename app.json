@@ -1,7 +1,8 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/search_movies/search_movies"
+    "pages/search_movies/search_movies",
+    "pages/favorite_movies_list/favorite_movies_list"
   ],
   "window": {
     "defaultTitle": "My App"

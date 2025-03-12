@@ -1,0 +1,14 @@
+/*--Estilo al buscador--*/
+.container-listFavorite{
+  position: relative;
+  padding-top: 10px;
+  background-color: black;
+  width: 100vw;
+  height: 43px;
+  border-bottom:1px solid #817d7d
+}
+/*-Estilo del Contenedor de las peliculas*/
+.container-list{
+  background-color: black;
+  color:white;
+}

@@ -1,0 +1,12 @@
+<view>
+  <view class="container-listFavorite"> 
+    <!--Icono Regresar pagina principal-->
+    <ant-icon type="LeftOutline" style="color:white; margin-left:8px;" onTap="clickPagesMovies"></ant-icon> <ant-icon onTap="clickPagesMovies" type="MinusOutline" style="color:white; position:absolute; left:13px;top:17px"></ant-icon>
+    <text style="color:white; margin-left:48px; font-size:23px;">Mi lista</text>
+  </view>
+  <!--LISTA PELICULAS FAVORITAS-->
+  <view class="container-list">
+    <movies-list valuesProps="698px"></movies-list>
+  </view>
+  
+</view>

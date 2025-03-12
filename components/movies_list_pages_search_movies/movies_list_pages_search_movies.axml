@@ -1,6 +1,6 @@
 <view>
   <!--ESTRUCTURA DE MOVIMIENTO VERTICAL-->
-    <scroll-view scroll-y ="{{true}}" style="height:460px">
+    <scroll-view scroll-y ="{{true}}" style="height:{{valuesProps}}">
       <view style="display:flex; gap: 2px">
         <!--IMAGENES DE LA PELICUA-->
         <view>

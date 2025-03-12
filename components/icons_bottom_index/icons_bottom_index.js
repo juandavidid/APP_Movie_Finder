@@ -13,6 +13,12 @@ Component({
       my.navigateTo({
         url:"/pages/search_movies/search_movies"
       })
+    },
+    //2. Funcion que redirige a la Page Lista Favorita
+    clickListFavorite(){
+      my.navigateTo({
+        url:"/pages/favorite_movies_list/favorite_movies_list"
+      })
     }
   },
 });
