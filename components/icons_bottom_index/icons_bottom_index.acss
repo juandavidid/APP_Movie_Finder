@@ -1,0 +1,17 @@
+/*Estilos de Iconos*/
+.container-Icons{
+  display: inline;
+  color:white;
+  padding-left:83px;
+  font-size: 22px;
+
+}
+/*Estilos de Texto*/
+.container-text{
+  color:white;
+  padding-left: 25px;
+}
+text{
+  padding-left:59px;
+  font-size: 13px;
+}

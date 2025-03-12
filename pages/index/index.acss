@@ -1,0 +1,29 @@
+/*--ESTILO - CONTENEDOR PRINCIPAL*/
+.container-Main{
+  width: 100vw;
+  background-color: #030304;
+
+}
+
+/*ESTILO - CONTENEDOR TEXT*/
+.container-Movies-images{
+  height: 225px;
+  background-color: #cec1c1;
+  margin: 4px 4px 4px 4px;
+  border-radius: 8px;
+
+}
+
+/*ESTILO- PELICULAS EN TENDENCIAS- */
+.container-Movies-Recommended{
+  height: 600px;
+  background-color: #1a1a1a;
+}
+
+/*ESTILO - ICONOS INFERIORES*/
+.iconos-bottow{
+  width: 100vw;
+  height: 200px;
+  background-color: #000000;
+  position: fixed;
+}

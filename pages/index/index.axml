@@ -1,3 +1,37 @@
-<view>
-  this is a blank page
+<view class="container-Main">
+  <!--ESTRUCTURA DE MOVIMIENTO EN SENTIDO VERTICAL-->
+  <scroll-view scroll-y ="{{true}}" style="height: 650px">
+    <!--TEXTO-->
+    <view style="width:100vw; display:flex; justify-content:center; margin-top:8px;">
+      <text style="color:#a9171d; font-size:24px;font-weight:bold;">NETFLIX</text>
+    </view>
+  
+    <!--CONTENIDO DE IMAGEN PELICULAS-->
+    <view class="container-Movies-images">
+     IMAGEN 
+    </view>
+
+    <!--ESTRUCTURA DE PELICULAS EN TENDENCIAS-->
+    <view class="container-Movies-Recommended">
+       <!--COMPONENTE PELICULAS POPULARES -->
+       <movies-popularity></movies-popularity>
+    </view>
+  </scroll-view>
+
+  <!--ICONOS INFERIOS-->
+  <view class="iconos-bottow">
+
+    <icons-bottom></icons-bottom>
+  
+
+    
+
+    
+  </view>
+  
+
+
+
+
+
 </view>

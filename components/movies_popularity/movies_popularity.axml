@@ -1,0 +1,16 @@
+<view a:for="{{ arrayCategoryPopularity }}" a:for-item="textCategory" >
+  <!--TEXTTO CATEGORIAS PELICULAS POPULARES-->
+  <view class="text-Category">
+    <text>{{textCategory}}</text>
+  </view>
+  <!--ESTRUCTURA DE MOVIMIENTO EN SENTIDO VERTICAL-->
+  <scroll-view scroll-x="{{true}}" style="width:360px" >
+    <!--CONTENEDOR IMAGENES-->
+    <view style="display:flex; width:700px; gap:2px;">
+      <!--Imagenes de Peliculas-->
+      <view class="images-MoviesPopularity" a:for="{{ imagesMovies }}">
+        Imagenes peliculas
+      </view>
+    </view>
+  </scroll-view>
+</view>
