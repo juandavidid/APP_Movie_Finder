@@ -24,7 +24,7 @@
   color:white;
 }
 
-.text-play{
+.text-play, .text-Movies{
   padding-top: 11px;
   padding-left:7px;
   padding-bottom: 10px;
@@ -38,6 +38,7 @@
   border: 2px solid #b33333;
   margin-left: 7px;
   border-radius: 11px;
+  overflow: hidden; /* Evita que la imagen se salga del contenedor */
 }
 
 

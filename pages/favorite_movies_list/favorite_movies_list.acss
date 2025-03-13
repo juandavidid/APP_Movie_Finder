@@ -11,4 +11,27 @@
 .container-list{
   background-color: black;
   color:white;
+  height: 700px;
+}
+
+
+/*Estilos de Peliculas Favoritas*/
+.text-icons, .img-movies {
+  height: 142px;
+  /*border: 2px solid red;*/
+}
+/*Estilos de Imagenes Peliculas*/
+.img-movies{
+  width: 205px;
+  margin-left: 4px;
+}
+/*Estilos titulo peliculas*/
+.text-icons{
+  width: 156px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+
+  padding-top:54px;
+  padding-left:-3px
 }

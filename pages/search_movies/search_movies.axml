@@ -19,13 +19,13 @@
       </view>
       <scroll-view scroll-x="{{true}}" style="width:390px">
        <view  style="display:flex; width:800px; gap:2px;">
-          <view class="play-images"  a:for="{{ playArray}}">
-            Imagenes Juegos
+          <view class="play-images"  a:for="{{ playArray}}" a:for-item="item">
+            <image mode="scaleToFill" src="{{item}}"  style="width:98px; height:89px;"/>
           </view>
        </view>
-       <view  style="display:flex; width:700px; gap:54px; margin-top:10px; margin-left:27px;">
-          <view   a:for="{{ playArray}}">
-            <text>Texttos</text>
+       <view  style="display:flex; width:700px; gap:28px; margin-top:10px; margin-left:19px;">
+          <view   a:for="{{ textPlay}}" a:for-item="itemText">
+            <text>{{itemText}}</text>
           </view>
        </view>
       </scroll-view>
@@ -33,8 +33,11 @@
 
     <!--Lista de Peliculas-->
     <view >
-      PELICULAS EN LISTA
-      <movies-list></movies-list>
+      <view class="text-Movies">
+        <text>Series y Peliculas</text>
+      </view>
+      <!--Componentes Peliculas-->
+      <movies-list searchQuery="{{searchQuery}}" ></movies-list>
     </view>
   </view>
 </view>

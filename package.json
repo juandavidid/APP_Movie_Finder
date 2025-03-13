@@ -2,5 +2,8 @@
   "dependencies": {
     "antd-mini": "^3.1.7",
     "mini-antui": "^0.5.4"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
   }
 }

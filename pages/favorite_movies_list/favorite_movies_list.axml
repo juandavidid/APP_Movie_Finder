@@ -6,7 +6,28 @@
   </view>
   <!--LISTA PELICULAS FAVORITAS-->
   <view class="container-list">
-    <movies-list valuesProps="698px"></movies-list>
+    
+
+    <!--ESTRUCTURA DE MOVIMIENTO VERTICAL-->
+    <scroll-view scroll-y ="{{true}}" style="height:{{valuesProps}}">
+      
+      <view style="display:flex; gap: 10px; margin-top:24px" >
+        <!--IMAGENES DE LA PELICUA-->
+        <view onTap="clickDetailSearch">
+          <view a:for="{{ favoriteMovies }}" a:for-item="imgMovies"  class="img-movies">
+            <image mode="scaleToFill" src="{{imgMovies.image}}" style="width:100%; height:138px; object-fit: cover; border-radius: 10px;" onTap="clickMoviesDestail"/>
+          </view>
+        </view>
+       <!--TITULOS DE LA PELICULA-->
+       <view>
+          <view  a:for="{{favoriteMovies }}" a:for-item="titleMovies" class="text-icons">
+            <text style="font-size:21px">{{titleMovies.title}}</text>
+            <ant-icon style="padding-left:15px; padding-bottom:38px" type="PlayOutline"></ant-icon>
+            <ant-icon style="padding-left:15px; padding-bottom:38px" type="DeleteOutline" data-title="{{titleMovies.title}}" onTap="removeFromFavorites"></ant-icon>
+          </view>
+       </view>
+      </view>
+    </scroll-view>
   </view>
   
 </view>

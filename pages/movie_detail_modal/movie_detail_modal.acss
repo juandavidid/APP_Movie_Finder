@@ -1,6 +1,6 @@
 .container-elements{
-  width: 383px;
-  height: 648px;
+  width: 389px;
+  height: 751px;
   background-color: #000000;
 }
 
@@ -12,7 +12,8 @@
 }
 
 .container-images{
-  padding-left: 16px;
+  padding-left: 1px;
+  margin-bottom: 30px;
 }
 
 /*Estilos modficados predetermiandos por el modal*/
@@ -51,4 +52,9 @@
 /* Estilo a los Iconos*/
 .Icon{
   color:white;
+  margin-top:51px;
+  margin-left:108px;
+  padding-left: 2px;
+  display: flex;
+  gap:73px
 }

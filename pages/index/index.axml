@@ -8,7 +8,7 @@
     <navigator url="/pages/movie_detail_modal/movie_detail_modal">
       <!--CONTENIDO DE IMAGEN PELICULAS-->
       <view class="container-Movies-images" onTap="clickImages">
-        IMAGENES
+        <image mode="scaleToFill" src="{{src}}" style="width:382px"/>
       </view>
     </navigator>
     
@@ -23,6 +23,4 @@
     <!--Componentes Iconos-->
     <icons-bottom></icons-bottom>
   </view>
-
-  
 </view>
