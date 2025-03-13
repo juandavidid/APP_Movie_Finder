@@ -8,7 +8,7 @@
     <!--CONTENEDOR IMAGENES-->
     <view style="display:flex; width:700px; gap:2px;">
       <!--Imagenes de Peliculas-->
-      <view class="images-MoviesPopularity" a:for="{{ imagesMovies }}">
+      <view class="images-MoviesPopularity" a:for="{{ imagesMovies }}" onTap="clickDestailImages">
         Imagenes peliculas
       </view>
     </view>

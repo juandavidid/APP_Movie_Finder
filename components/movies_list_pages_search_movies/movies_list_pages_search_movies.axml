@@ -3,7 +3,7 @@
     <scroll-view scroll-y ="{{true}}" style="height:{{valuesProps}}">
       <view style="display:flex; gap: 2px">
         <!--IMAGENES DE LA PELICUA-->
-        <view>
+        <view onTap="clickDetailSearch">
           <view a:for="{{ moviesList }}" a:for-item="imgMovies"  class="img-movies">
             {{imgMovies}}
           </view>

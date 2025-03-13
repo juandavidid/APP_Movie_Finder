@@ -1,0 +1,54 @@
+.container-elements{
+  width: 383px;
+  height: 648px;
+  background-color: #000000;
+}
+
+.header-icon{
+  width: 375px;
+  height: 50px;
+  padding-top:11px
+  
+}
+
+.container-images{
+  padding-left: 16px;
+}
+
+/*Estilos modficados predetermiandos por el modal*/
+.modal-movies .am-modal-image {
+  width: 350px !important;  
+  height: 200px !important;
+  margin-left:4px;
+  margin-top:36px;
+}
+
+.am-modal-image-md .a-image{
+  width: 343px;
+  height: 200px;
+}
+.am-modal-body{
+  padding:0;
+  max-width: 339px;
+  max-height: 320px;
+  border: 2px solid black;
+  margin-left:8px;
+  
+}
+
+.am-modal-close{
+  background-color: black;
+  all:unset
+}
+
+/*Estilos de botones*/
+.btn-movies{
+  border:none;
+  margin: 2px 2px 2px 4px;
+  border-radius: 2px;
+
+}
+/* Estilo a los Iconos*/
+.Icon{
+  color:white;
+}

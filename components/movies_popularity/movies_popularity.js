@@ -8,5 +8,13 @@ Component({
   didMount() {},
   didUpdate() {},
   didUnmount() {},
-  methods: {},
+  methods: {
+
+    // 1. Funcion envia  detalles de peliculas
+    clickDestailImages(){
+      my.navigateTo({
+        url:"/pages/movie_detail_modal/movie_detail_modal"
+      })
+    }
+  },
 });

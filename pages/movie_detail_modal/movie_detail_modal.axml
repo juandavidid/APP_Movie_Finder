@@ -1,0 +1,27 @@
+<view  style="position:fixed; z-index:999; width:100vw;height:400px; top:0px">
+  <view class="container-elements">
+    <view class="header-icon">
+      <ant-icon type="LeftOutline" style="color:white; padding-left:-1px; font-size:21px" onTap="clickPage"></ant-icon>
+      <ant-icon type="CloseOutline" style="color:white; padding-left:333px; font-size:21px" onTap="clickPageClosed"></ant-icon>
+    </view>
+    <view class="container-images">
+      <image mode="scaleToFill" src="https://i.blogs.es/c7ed10/screenshot_90/1366_2000.jpeg" />
+    </view>
+    <text style="color:white">Mickey 17</text>
+    <view style="color:white">
+      <text>28 de Febrero 2025</text>
+    </view>
+    <button size="default" type="primary" style="background-color:white; color:black"  class="btn-movies"><ant-icon type="PlayOutline" style="color:black"></ant-icon>ver</button>
+    <button size="default" type="primary" style="background-color:gray; color:white" class="btn-movies">Descargar</button>
+    <text style="color:white">
+      Mickey Barnes es un héroe poco común que se encuentra en una situación extraordinaria: trabaja para un empleador que exige el máximo compromiso con el trabajo... hasta el punto de morir como parte de su labor.
+    </text>
+    <view class="Icon">
+      <!--Iconos agrega a  lista favorita -->
+      <ant-icon type="AddOutline" style="font-size:25px"></ant-icon>
+      <!--Icono Calificacion -->
+      <ant-icon type="LikeOutline" style="font-size:25px"></ant-icon>
+    </view> 
+  </view>
+  
+</view>

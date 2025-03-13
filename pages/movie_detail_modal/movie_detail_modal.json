@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "ant-icon":"/node_modules/antd-mini/es/Icon/index"
+  },
+  "styleIsolation": "apply-shared"
+}

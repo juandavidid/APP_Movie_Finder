@@ -11,5 +11,11 @@ Component({
   didMount() {},
   didUpdate() {},
   didUnmount() {},
-  methods: {},
+  methods: {
+    clickDetailSearch(){
+      my.navigateTo({
+        url:"/pages/movie_detail_modal/movie_detail_modal"
+      })
+    }
+  },
 });

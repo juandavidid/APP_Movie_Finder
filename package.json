@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "antd-mini": "^3.1.7"
+    "antd-mini": "^3.1.7",
+    "mini-antui": "^0.5.4"
   }
 }
